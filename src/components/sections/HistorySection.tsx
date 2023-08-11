@@ -30,7 +30,7 @@ const HistorySection = () => {
             <React.Fragment key={i}>
               <div
                 className={classNames(
-                  "flex-grow flex flex-[250px] max-md:flex-[100px] flex-col items-center gap-2.5 "
+                  "flex-grow flex flex-[250px] max-md:flex-[1px] flex-col items-center gap-2.5 "
                 )}
                 key={title}
               >
