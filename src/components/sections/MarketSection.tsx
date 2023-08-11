@@ -27,7 +27,7 @@ const MarketSection = () => {
         </div>
       </div>
 
-      <div className="max-w-2/4 flex-grow relative max-h-[340px] min-w-[400px] w-full max-w-[700px] min-h-[200px]">
+      <div className="max-w-2/4 flex-grow relative max-h-[340px] min-w-[250px] w-full max-w-[700px] min-h-[200px]">
         <GraphicsSVG />
       </div>
     </div>
