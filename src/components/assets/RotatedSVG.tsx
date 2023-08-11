@@ -88,7 +88,7 @@ function RotatedSVG() {
       <path
         d="M172.936 191.15L191.46 206.768H235.409"
         stroke="#809F96"
-        stroke-width="1.56183"
+        strokeWidth="1.56183"
       />
       <circle
         cx="172.719"
@@ -96,7 +96,7 @@ function RotatedSVG() {
         r="4.5"
         fill="#EAFFF9"
         stroke="#809F96"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       />
       <line
         y1="-0.780916"
@@ -104,7 +104,7 @@ function RotatedSVG() {
         y2="-0.780916"
         transform="matrix(1 1.03559e-07 1.03559e-07 -1 190.897 209.892)"
         stroke="#809F96"
-        stroke-width="1.56183"
+        strokeWidth="1.56183"
       />
       <line
         x1="190.897"
@@ -112,7 +112,7 @@ function RotatedSVG() {
         x2="235.409"
         y2="214.577"
         stroke="#809F96"
-        stroke-width="1.56183"
+        strokeWidth="1.56183"
       />
       <line
         x1="190.897"
@@ -120,7 +120,7 @@ function RotatedSVG() {
         x2="235.409"
         y2="218.482"
         stroke="#809F96"
-        stroke-width="1.56183"
+        strokeWidth="1.56183"
       />
     </svg>
   );
