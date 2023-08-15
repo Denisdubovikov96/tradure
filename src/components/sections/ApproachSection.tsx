@@ -32,7 +32,7 @@ const ApproachSection = () => {
             <div className="flex flex-wrap justify-center gap-8 mb-[40px]">
                 {el.map(({ title, description,icon }) => {
                     return (
-                        <div key={title} className='py-[46px] px-[50px] bg-black rounded-3xl shadow max-w-[440px]'>
+                        <div key={title} className=' p-[50px] max-md:p-[24px] bg-black rounded-3xl shadow max-w-[440px]'>
                             <h4 className="text-primary font-semibold mb-4 text-2xl flex items-center">
                                 <span className="mr-2">
                                     <Image src={icon} height={24} width={24} alt={title} />

@@ -1,5 +1,6 @@
 import Image from "next/image";
-import GraphicsSVG from "../assets/GraphicsSVG";
+// import GraphicsSVG from "../assets/GraphicsSVG";
+import GraphicsSVG from "../assets/Stats";
 
 const marketElements = [
   `Commission-free platforms, fractional share trading, social media-driven financial discourse, and Covid-19’s impact on personal finances has created a powerful mega-trend solidifying the role of retail traders in U.S markets`,
@@ -10,7 +11,7 @@ const marketElements = [
 
 const MarketSection = () => {
   return (
-    <div className="flex gap-8 max-md:flex-col">
+    <div className="flex gap-8 max-md:flex-col items-center">
       <div className="flex-grow max-w-[700px]">
         <h2 className="mb-10 text-primary text-[42px] max-md:text-2xl font-bold">
           The Market
@@ -27,7 +28,7 @@ const MarketSection = () => {
         </div>
       </div>
 
-      <div className="max-w-2/4 flex-grow relative max-h-[340px] min-w-[250px] w-full max-w-[700px] min-h-[200px]">
+      <div className="max-w-2/4 flex-grow relative max-h-[340px] min-w-[250px] w-full max-w-[700px] min-h-[100px]">
         <GraphicsSVG />
       </div>
     </div>

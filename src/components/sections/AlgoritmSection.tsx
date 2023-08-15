@@ -9,11 +9,11 @@ const aEl = [
 
 const AlgoritmSection = () => {
     return (
-        <div className="flex gap-8 max-md:flex-col-reverse">
+        <div className="flex gap-8 max-md:flex-col-reverse overflow-hidden">
             <div className="max-w-2/4 flex-grow relative flex justify-center items-center">
-                <div className="w-full min-w-[200px] max-w-[250px] relative max-h-[450px] h-full min-h-[400px] ">
+                <div className="w-full min-w-[150px] max-w-[250px] max-md:max-w-[180px] relative max-h-[450px] h-full min-h-[400px] ">
                     <Image fill src={'/img/sections/strategy-builder.png'} alt='2' className="object-contain z-10" />
-                    <div className="absolute top-0 right-0 translate-x-[30%] translate-y-[-50%] z-[9]">
+                    <div className="absolute top-0 right-0 translate-x-[40%] translate-y-[-50%] z-[9] max-md:max-w-[200px] max-md:max-h-[200px]">
                         <RotatedSVG/>
                     </div>
                 </div>

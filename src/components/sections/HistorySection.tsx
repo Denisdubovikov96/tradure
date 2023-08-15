@@ -18,7 +18,7 @@ const hEl = [
 
 const HistorySection = () => {
   return (
-    <div className="w-full bg-black text-white  p-[50px] rounded-[40px] relative overflow-hidden">
+    <div className="w-full bg-black text-white  p-[50px] max-md:p-8 rounded-[40px] relative overflow-hidden">
       <div className="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[300px] h-[50px] bg-[#47D7AC] blur-[100px] " />
 
       <h2 className="text-center mb-7 text-4xl text-[#47D7AC] font-bold">

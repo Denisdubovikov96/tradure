@@ -18,16 +18,16 @@ export default function Home() {
   return (
     <div className={`flex flex-col`}>
       <ContentWrapper classes={{ root: "bg-black relative py-[50px]" }}>
-        <div className="absolute inset-0 z-[9] text-black">
+        <div className="absolute inset-0 z-[9] text-black overflow-hidden">
           <div
-            className="fixed inset-0 z-1"
-            style={{ backgroundImage: 'url("../img/grid-welcome.svg")', backgroundPosition: "100%" }}
+            className="absolute inset-0 z-1"
+            style={{ backgroundImage: 'url("../img/grid-welcome.svg")', backgroundPosition: "100%", backgroundAttachment: 'fixed' }}
           />
           <Image src="/img/ellipse-welcome.svg" fill alt="grid" />
 
           <Image src="/img/vector-welcome.svg" fill alt="grid" />
         </div>
-        <div className="flex items-start gap-4 pt-[100px] max-md:pt-[30px] relative">
+        <div className="flex items-start gap-4 pt-[100px] max-md:pt-[30px] relative z-100">
           <div className="text-white max-w-5xl z-20">
             <h1 className="text-[82px] max-md:text-[36px]">
               Complicated world — Simplified trading
