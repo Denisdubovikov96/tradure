@@ -74,12 +74,11 @@ const ModalBase: React.FC<ModalBaseProps> = ({
 		<div
 			ref={refOuter}
 			onKeyDown={onKeyDown}
-			className={classNames('absolute z-[200] w-full h-full flex items-center justify-center px-4')}
+			className={classNames('fixed z-[200] w-full h-full flex items-center justify-center px-4')}
 		>
-			<div className={classNames('fixed inset-0  bg-[rgba(0,0,0,0.4)] ', classes?.overlay)} />
+			<div className={classNames('absolute inset-0  bg-[rgba(0,0,0,0.4)] ', classes?.overlay)} />
 			<div className='p-14 max-md:p-4 bg-[#E1FFF6] relative rounded-[30px] w-full max-w-[450px]'>
 				<button onClick={onClose} className='flex items-center justify-center absolute right-2 top-2 w-10 h-10 text-secondary'>
-					{/* <Image height={30} width={30} src='/img/icons/close.svg' alt="mail" /> */}
 					<Icon icon='close'/>
 				</button>
 				{children}
