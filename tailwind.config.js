@@ -24,6 +24,14 @@ module.exports = {
           from: {
             transform: 'rotate(360deg)'
           },
+        },
+        "render-graph": {
+          from: {
+            width: "0%"
+          },
+          to: {
+            width: "100%"
+          }
         }
       }
     },

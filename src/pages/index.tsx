@@ -21,11 +21,14 @@ export default function Home() {
         <div className="absolute inset-0 z-[9] text-black overflow-hidden">
           <div
             className="absolute inset-0 z-1"
-            style={{ backgroundImage: 'url("../img/grid-welcome.svg")', backgroundPosition: "100%", backgroundAttachment: 'fixed' }}
+            style={{
+              backgroundImage: 'url("../img/grid-welcome.svg")',
+              backgroundPosition: "100%",
+              backgroundAttachment: "fixed",
+            }}
           />
           <Image src="/img/ellipse-welcome.svg" fill alt="grid" />
-
-          <Image src="/img/vector-welcome.svg" fill alt="grid" />
+          <div className="overflow-hidden h-full w-[100%] absolute bg-[url('/img/vector-welcome.svg')] animate-[render-graph_3s_infinite] bg-no-repeat" />
         </div>
         <div className="flex items-start gap-4 pt-[100px] max-md:pt-[30px] relative z-100">
           <div className="text-white max-w-5xl z-20">
