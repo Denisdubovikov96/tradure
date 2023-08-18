@@ -20,15 +20,14 @@ export default function Home() {
       <ContentWrapper classes={{ root: "bg-black relative py-[50px]" }}>
         <div className="absolute inset-0 z-[9] text-black overflow-hidden">
           <div
-            className="absolute inset-0 z-1"
+            className="absolute inset-0 z-1 animate-[pulse_2s_infinite]"
             style={{
               backgroundImage: 'url("../img/grid-welcome.svg")',
-              backgroundPosition: "100%",
               backgroundAttachment: "fixed",
             }}
           />
           <Image src="/img/ellipse-welcome.svg" fill alt="grid" />
-          <div className="overflow-hidden h-full w-[100%] absolute bg-[url('/img/vector-welcome.svg')] animate-[render-graph_3s_infinite] bg-no-repeat" />
+          <div className="overflow-hidden h-full w-[100%] absolute bg-[url('/img/vector-welcome.svg')] animate-[render-graph_10s_linear_infinite] bg-no-repeat max-md:hidden" />
         </div>
         <div className="flex items-start gap-4 pt-[100px] max-md:pt-[30px] relative z-100">
           <div className="text-white max-w-5xl z-20">

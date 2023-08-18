@@ -25,12 +25,13 @@ module.exports = {
             transform: 'rotate(360deg)'
           },
         },
+ 
         "render-graph": {
           from: {
-            width: "0%"
+            width: "0%",
           },
           to: {
-            width: "100%"
+            width: "100%",
           }
         }
       }

@@ -5,7 +5,7 @@ const text = {
   title: "The Power of Mobile",
   subtitle: "Tradure App",
   body: [
-    "Download the Tradure App to get rid of those paper hands and always have the power of mobility. Available on both the App Store and Google Play Store take your hedge fund global so the suits cant get to you.",
+    "Download the Tradure App to get rid of those paper hands and always have the power of mobility. Available on both the App Store and Google Play Store take your hedge fund global so the suits can't get to you.",
     " Coming Soon!",
   ],
 };

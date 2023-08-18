@@ -3,10 +3,10 @@ import Image from "next/image";
 import GraphicsSVG from "../assets/Stats";
 
 const marketElements = [
-  `Commission-free platforms, fractional share trading, social media-driven financial discourse, and Covid-19’s impact on personal finances has created a powerful mega-trend solidifying the role of retail traders in U.S markets`,
-  `Despite macro headwinds, retail trading reached an all time high in 2023 (23% of vol.) surpassing the meme-driven surge seen in 2021 (22% of vol.)`,
-  `The individual investor market reached $7.2 trillion in size in 2023 (IBIS World)`,
-  `Combined, there are over 100 million users/accounts at just six of the most popular online brokerages for retail investors`,
+  `Commission-free platforms, fractional share trading, social media-driven financial discourse, and COVID-19’s impact on personal finances has created a powerful mega-trend solidifying the role of retail traders in U.S markets.`,
+  `Despite macro headwinds, retail trading reached an all time high in 2023 (23% of vol.) surpassing the meme-driven surge seen in 2021 (22% of vol.).`,
+  `The individual investor market reached $7.2 trillion in size in 2023 (IBIS World).`,
+  `Combined, there are over 100 million users/accounts at just six of the most popular online brokerages for retail investors.`,
 ];
 
 const MarketSection = () => {

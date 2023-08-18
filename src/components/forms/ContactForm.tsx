@@ -68,7 +68,7 @@ export default function ContactForm() {
       if (resp.status === 200) {
         setPrompt({
           status: "success",
-          message: "We received your information and contact with you.",
+          message: "We have received your message and will contact you soon.",
         });
         reset()
       } else {

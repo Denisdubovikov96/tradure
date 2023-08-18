@@ -3,15 +3,19 @@ import ContentWrapper from "#/components/ui/ContentWrapper";
 import BuiltForYouAboutSection from "#/components/sections/BuiltForYouAboutSection";
 import TeamSection from "#/components/sections/TeamSection";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
     <div className={`flex flex-col`}>
       <ContentWrapper classes={{ root: "bg-black relative py-[50px]" }}>
         <div className="absolute inset-0 z-[9] text-black">
-        <div
+          <div
             className="fixed inset-0 z-1"
-            style={{ backgroundImage: 'url("../img/grid-welcome.svg")', backgroundPosition: "100%" }}
+            style={{
+              backgroundImage: 'url("../img/grid-welcome.svg")',
+              backgroundPosition: "100%",
+            }}
           />
           <Image src="/img/ellipse-welcome.svg" fill alt="grid" />
         </div>
@@ -23,7 +27,9 @@ export default function About() {
           <p className="my-[40px] text-white ">
             Individual Investors. Just like YOU.
           </p>
-          <Button className="px-[50px]">Write to Us</Button>
+          <Link href={"/contact"}>
+            <Button className="px-[50px]">Write to Us</Button>
+          </Link>
         </div>
       </ContentWrapper>
 

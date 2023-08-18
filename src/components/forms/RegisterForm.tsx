@@ -64,7 +64,7 @@ export default function RegisterForm() {
       if (resp.status === 200) {
         setPrompt({
           status: "success",
-          message: "User added successfully ",
+          message: "Thank you for Signing Up, you will Receive an Email Shortly",
         });
         reset();
       } else {

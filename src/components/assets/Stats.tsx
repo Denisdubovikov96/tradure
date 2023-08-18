@@ -19,7 +19,7 @@ const Stats: React.FC<React.SVGAttributes<SVGAElement>> = () => {
     window.addEventListener("scroll", onScroll);
 
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [onScroll]);
 
   return (
     <>
