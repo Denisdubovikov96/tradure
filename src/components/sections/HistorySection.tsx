@@ -27,7 +27,7 @@ const HistorySection = () => {
       <div className="flex justify-center items-stretch gap-8 max-md:flex-col">
         {hEl.map(({ title, description }, i, arr) => {
           return (
-            <React.Fragment key={i}>
+            <React.Fragment key={title}>
               <div
                 className={classNames(
                   "flex-grow flex flex-[250px] max-md:flex-[1px] flex-col items-center gap-2.5 "

@@ -45,7 +45,7 @@ export default function Home() {
                   className="px-[50px] max-md:w-full"
                   onClick={() => setIsOpen(true)}
                 >
-                  Sign Up
+                  Join the Waitlist
                 </Button>
                 <Modal open={isOpen} onClose={() => setIsOpen(false)}>
                   <div>
